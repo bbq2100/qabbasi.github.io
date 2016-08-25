@@ -1,1 +1,6 @@
 _site
+*.iml
+.idea
+.sass-cache
+_site/
+_drafts
