@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: ./qaiser // STOPSHIP | *cough* Qaiser´s Tech Blog
+title: ./qaiser //STOPSHIP
 email: q.abbasi1010 at gmail dot com
-description: Qaiser´s Tech Blog
+description: Qaiser's Tech Blog
 url: # the base hostname & protocol for your site
 
 #
@@ -35,7 +35,7 @@ owner:
   name: Qaiser
   avatar: avatar.png
   job: Programmer by
-  bio: Crummy enterprise hipster in the daytime… Functional Programming avant-gardist in the night.
+  bio: Wannabe enterprise hipster in the daytime… Functional programming avant-gardist at night.
   email: q.abbasi1010 at gmail dot com
   disqus-shortname: http-qabbasi-github-io
   twitter: #username

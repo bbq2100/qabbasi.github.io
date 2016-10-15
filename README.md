@@ -1,1 +1,1 @@
-# qabbasi.github.io -- my personal tech blog
+# qabbasi.github.io -- My Personal Tech Blog
