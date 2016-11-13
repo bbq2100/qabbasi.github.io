@@ -93,7 +93,7 @@ def broadcastEvent() = {
 
 Frankly, the overall stream is rather naïvely realized… For example, it lacks to throttle the stream, if the external web services adhere to api call restrictions. Also there's no information reflux
 from the clients perspective.
-Certainly the person in need would be greatly eased, if the clients were responding with an acknowledgment. This would also enable the clients to intercommunicate. Maybe I'll tackle this in another weekend hack?`
+Certainly the person in need would be greatly eased, if the clients were responding with an acknowledgment. This would also enable the clients to intercommunicate. Maybe I'll tackle this in another weekend hack?
 
-Anyway, if you want to fiddle with the stream implementation then just go head and checkout the repository on [Github](https://github.com/qabbasi/Loudhailer). The repository also contains a rudimentary client app,
-which was created using Kotlin and Android.
+Anyway, if you want to fiddle around with the above `code` then just go head and checkout the repository on [Github](https://github.com/qabbasi/Loudhailer). Also notice that the repository contains a tiny
+Android client app for demonstration purpose.
