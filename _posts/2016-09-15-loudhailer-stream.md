@@ -95,5 +95,5 @@ Frankly, the overall stream is rather naïvely realized… For example, it lacks
 from the clients perspective.
 Certainly the person in need would be greatly eased, if the clients were responding with an acknowledgment. This would also enable the clients to intercommunicate. Maybe I'll tackle this in another weekend hack?
 
-Anyway, if you want to fiddle around with the above `code` then just go head and checkout the repository on [Github](https://github.com/qabbasi/Loudhailer). Also notice that the repository contains a tiny
-Android client app for demonstration purpose.
+Anyway, if you want to fiddle around with the shown `code` then go head and checkout the repository on [Github](https://github.com/qabbasi/Loudhailer). The repository also contains a tiny
+Android app for demonstrating a potential stream consumer.
