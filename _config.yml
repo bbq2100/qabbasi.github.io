@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: ./qaiser //STOPSHIP
+title: //STOPSHIP
 email: q.abbasi1010 at gmail dot com
 description: Qaiser's Tech Blog
 url: # the base hostname & protocol for your site
@@ -26,6 +26,9 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
+gems:
+  - jekyll-youtube
+
 #
 ###################################
 # Site Owner configuration
@@ -35,7 +38,7 @@ owner:
   name: Qaiser
   avatar: avatar.png
   job: Programmer by
-  bio: Enterprise hipster in the daytime… functional programming avant-gardist at night.
+  bio: Enterprise developer in the daytime… functional programming avant-gardist at night.
   email: q.abbasi1010 at gmail dot com
   disqus-shortname: http-qabbasi-github-io
   twitter: #username
