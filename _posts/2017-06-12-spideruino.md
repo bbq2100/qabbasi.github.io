@@ -1,14 +1,10 @@
 ---
 layout: post
 title: spideruino – A Remote-Controlled ESP8266-Based Hexapod
-excerpt: "In the transition to my new job I finally completed a side-project, which originally was..."
+excerpt: "Spurred by the combination of controlling a hexapod via Haskell code, I planned to build the first ESP8266-based hexapod running solely on PureScript..."
 categories: [spideruino]
 comments: true
 ---
-
-### Benefits of being funemployed
-In the transition to my new job I finally completed a side-project, which originally was planned for just a weekend to be done in December last year... (and took accumulated maybe a week)
-However, in the meantime I (once again) learned to appreciate the [KISS](https://en.wikipedia.org/wiki/KISS_principle) principle.
 
 ### Motivation
 Spurred by the combination of [controlling a hexapod via Haskell code](http://blog.sigfpe.com/2011/02/build-yourself-bluetooth-controlled-six.html), I planned to build the first ESP8266-based hexapod running solely on [Purescript](http://www.purescript.org/). You might ask why? Good question! A comment on [Reddit](https://www.reddit.com/r/esp8266/comments/3xein6/alternative_way_to_develop_esp8266based_project/cy7mu9z) regarding alternative ways to develop ESP8266-based projects set the "final trigger" :)
@@ -42,22 +38,13 @@ You'll need:
 
 The approx. total cost will be around 10 - 20€ depending on your existing equipment.
 
-#### Breadboard Configuration for Development
+#### Circuit Diagram & Breadboard Configuration
+The spideruino [Github repository](https://github.com/qabbasi/spideruino) also contains [Fritzing diagrams](http://fritzing.org/home/) displaying the actual circuit diagram and breadboard configuration. If you want to use them, install the following module beforehand: [Fritzing ESP8266-201 module](https://github.com/ydonnelly/ESP8266_fritzing/blob/master/ESP8266-201%20WiFi%20Module.fzpz).
+The original ESP pin out can be found [here](https://www.mikrocontroller.net/attachment/307864/esp8266_esp_201_module_pinout_diagram_cheat_sheet_by_adlerweb-d9iwmqp.jpg).
+If you have trouble to follow along, then have a look at the building instructions at a similar project: [pololu](https://pololu.com/docs/0J42/all).
+
 Notice: To upload your code from the Arduino IDE to the ESP, you have to ground the pin 0 in order to boot in _serial programming_ mode.
 [Here](https://github.com/esp8266/Arduino) you can learn how to import the ESP board into the Arduino IDE.
-
-![Development configuration](http://i.imgur.com/BQzIdxFh.png)
-
-#### Circuit Diagram
-![Breadboard](http://i.imgur.com/DyJgIyOh.png)
-
-#### Actual Configuration for Deployment
-![Breadboard](http://i.imgur.com/DUA7NtEh.png)
-
-The spideruino [Github repository](https://github.com/qabbasi/spideruino) also contains the illustrated [Fritzing diagrams](http://fritzing.org/home/). If you want to use them, install the following module beforehand: [Fritzing ESP8266-201 module](https://github.com/ydonnelly/ESP8266_fritzing/blob/master/ESP8266-201%20WiFi%20Module.fzpz).
-The original ESP pin out can be found [here](https://www.mikrocontroller.net/attachment/307864/esp8266_esp_201_module_pinout_diagram_cheat_sheet_by_adlerweb-d9iwmqp.jpg).
-
-If you have trouble to follow along, then have a look at the building instructions at a similar project: [pololu](https://pololu.com/docs/0J42/all).
 
 ### spideruino – Quo Vadis?
 Before examining the code, let's figure out how spideruino moves at all.
